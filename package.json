@@ -1,0 +1,24 @@
+{
+	"name": "graphql-express-workshop",
+	"version": "1.0.0",
+	"main": "app.js",
+	"repository": "https://github.com/wwwwvv/Graphql-express-workshop.git",
+	"author": "Stratos <wave_onlyone@hotmail.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"apollo-server-express": "^2.6.3",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-graphql": "^0.8.0",
+		"graphql": "^14.3.1",
+		"graphql-server-express": "^1.4.0",
+		"graphql-tools": "^4.0.4",
+		"merge-graphql-schemas": "^1.5.8",
+		"mongodb": "^3.2.7"
+	},
+	"scripts": {
+		"start": "npx nodemon --watch . app.js"
+	}
+}
