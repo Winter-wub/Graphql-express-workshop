@@ -14,7 +14,7 @@
 		"graphql-tools": "^6.0.0",
 		"graphql": "^14.6.0",
 		"merge-graphql-schemas": "^1.5.8",
-		"mongodb": "^3.2.7"
+		"mongodb": "^3.6.2"
 	},
 	"scripts": {
 		"start": "npx nodemon --watch . app.js"
