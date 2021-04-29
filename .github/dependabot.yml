@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: mongodb
+    versions:
+    - 3.6.3
+    - 3.6.4
+    - 3.6.5
+  - dependency-name: graphql-tools
+    versions:
+    - 7.0.2
+    - 7.0.3
